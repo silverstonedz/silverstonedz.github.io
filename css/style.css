@@ -97,26 +97,26 @@ h1,h1>sub {
   top: 80px;
   box-shadow: 10px 10px 10px black;
   border-radius: 5px;
+  padding: 0px;
 }
 
-.ContactUs:hover {
-  cursor: pointer;
-}
-
-.ContactUs:hover>div pre {
-  /*border: 5px solid #4ea54e;*/
+.ContactUs div pre {
   background-color: orange;
   margin: 0;
   text-align: left;
   color: white;
+  float: left;
+  padding: 10px;
+}
+
+.ContactUs:hover,.ContactUs:hover>div {
+  cursor: pointer;
 }
 
 .ContactUs:hover>div {
   display: inline;
-  cursor: pointer;
   /*border: 5px dashed pink;
   box-shadow: 0 0 10px blue;*/
-  padding: 0px;
 }
 
 footer,footer small {
@@ -124,4 +124,9 @@ footer,footer small {
   font-size: 10px;
   margin: 0 auto;
   text-align: center;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
 }
