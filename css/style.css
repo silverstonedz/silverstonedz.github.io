@@ -25,7 +25,7 @@
 }
 
 *,p {
-  font-family: 'Chewy', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 40px;
   color: black;
 }
@@ -45,7 +45,7 @@ h1,h1>sub {
     /*font-family: 'Lato', sans-serif;*/
     /*font-family: 'Galada', cursive;*/
     /*font-family: 'Atma', sans-serif;*/
-    font-family: 'Chewy', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
     /*font-weight: 100;*/
 }
 
